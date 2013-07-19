@@ -3,6 +3,7 @@ var fs = require('fs');
 var app = express.createServer(express.logger());
 
 app.use(express.static(__dirname + '/public'));
+app.use(express.favicon(__dirname + '/public/img/favicon.ico'));
 
 app.get('/', function(request, response) {
     var buffer = fs.readFileSync('public/src/index.html');

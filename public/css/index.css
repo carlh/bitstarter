@@ -30,6 +30,38 @@
 body{
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
+
+.navbar-inverse .navbar-inner{
+    background-image:none;
+    background-color:#2e6a40;;
+}
+
+.navbar-inverse .brand{
+    font-weight: 400;
+    color: #24f27f;
+}
+
+.navbar-inverse .brand:hover, .navbar-inverse .brand:focus{
+    color: #24fa74;
+}
+
+.navbar-inverse a{
+    text-shadow: none;
+}
+.navbar-inverse .nav>li>a{
+    color: #ccc;
+}
+
+.navbar-inverse .nav .active>a{
+    color: #400;
+    background-color: #56c678;
+}
+
+.navbar-inverse .nav .active>a:hover{
+    background-color: #24f27f;
+    color: #7c1e0f; 
+}
+
 .heading, .subheading {
     font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
     text-align: center;

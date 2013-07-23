@@ -84,6 +84,13 @@ p {
     line-height: 24px;
 }
 
+.bigimage{
+    position: relative;
+    padding: 0px;
+    margin-top: -20px;
+    background-color: #0B3E4D;
+}
+
 /* Video pitch and Action */
 .pitch {
     padding: 2.5% 0%;
@@ -111,6 +118,17 @@ p {
 .asset {
     padding: 2.5% 0%;
 }
+
+.heading h1{
+    color: #FAF0E6;
+    text-shadow:1px 3px black;
+}
+
+.subheading{
+    color: #FAF0E6;
+    text-shadow:1px 3px black;
+}
+
 .footer {
     color: #cccccc;
     text-align: center;

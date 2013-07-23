@@ -41,6 +41,14 @@ body{
     color: #24f27f;
 }
 
+.navbar .brand{
+    padding:0px;
+}
+
+.navbar .brand img{
+    padding:3px 10px 0px 20px;
+}
+
 .navbar-inverse .brand:hover, .navbar-inverse .brand:focus{
     color: #24fa74;
 }

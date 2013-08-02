@@ -87,6 +87,7 @@ p {
 .bigimage{
     position: relative;
     padding: 0px;
+    width: 100%;
     margin-top: -20px;
     background-color: #0B3E4D;
 }
@@ -104,6 +105,10 @@ p {
 }
 .video, .thermometer, .order, .social, .statistics {
     text-align: center;
+}
+.addthis_toolbox{
+    width:184px;
+    margin: 0px auto;
 }
 .statistics h3, .statistics p {
     color: white;

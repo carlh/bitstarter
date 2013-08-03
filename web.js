@@ -10,6 +10,21 @@ app.get('/', function(request, response) {
     response.send(buffer.toString('utf-8'));
 });
 
+app.get('/index.html', function(request, response){
+    var buffer = fs.readFileSync('public/src/index.html');
+    response.send(buffer.toString('utf-8'));
+});
+
+app.get('/about.html', function(request, response){
+    var buffer = fs.readFileSync('public/src/about.html');
+    response.send(buffer.toString('utf-8'));
+});
+
+app.get('/jobs.html', function(request, response){
+    var buffer = fs.readFileSync('public/src/jobs.html');
+    response.send(buffer.toString('utf-8'));
+});
+
 var port = process.env.PORT || 8080;
 app.listen(port, function() {
   console.log("Listening on " + port);
